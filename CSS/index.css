@@ -1,0 +1,33 @@
+#navegador {
+	/*border-style: solid;
+	border-color: red;*/
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 60px;  
+}
+
+#imagen_navegador {
+	/*border-style: solid;
+	border-color: pink;*/
+	display: flex;
+	align-items: center;
+	padding-left: 7px;
+}
+
+#menu_navegador {
+	/*border-style: solid;
+	border-color: green;*/
+	width:130px;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+
+#menu_navegador > a {
+	color: lightgray;
+	text-decoration: none;
+	margin-right: 15px;
+	display: block;
+}
