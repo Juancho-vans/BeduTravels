@@ -5,7 +5,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 60px;  
+	height: 60px;
 }
 
 #imagen_navegador {
@@ -30,4 +30,32 @@
 	text-decoration: none;
 	margin-right: 15px;
 	display: block;
+}
+
+#panel_central {
+	/*border-style: solid;
+	border-color: green;*/
+	display: Flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("playa.jpg");
+	background-size: 100% auto;
+	height: 250px;
+}
+
+#panel_central > h1,h2 {
+	text-align: center;
+}
+
+#panel_buscador {
+	/*border-style: solid;
+	border-color: white;*/
+	display: Flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+#panel_buscador > input {
+	margin-right: 15px;
+	width: 350px;
 }
