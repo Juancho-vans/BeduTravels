@@ -1,0 +1,46 @@
+#franja_superior_registro {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#panel_registro {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+fieldset {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+fieldset > h3 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+fieldset > input {
+  margin-bottom: 10px;
+}
+
+fieldset > button {
+  text-align: center;
+}
+
+.campo_requerido {
+  float: left;
+}
+
+.boton_registro {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
