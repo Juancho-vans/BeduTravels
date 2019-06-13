@@ -1,0 +1,87 @@
+#navegador {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+}
+
+#imagen_navegador {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+}
+
+#menu_navegador {
+  /*border-style: solid;
+  border-color: pink;*/
+  width: 130px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+#menu_navegador > a {
+  color: lightgray;
+  text-decoration: none;
+  margin-right: 15px;
+  display: block;
+}
+
+#panel_central_cuenta {
+  border-style: solid;
+  border-color: lightgray;
+  background-color: lightgray;
+}
+
+#titulo_cuenta {
+  text-align: center;
+  padding: 20px;
+}
+
+#formato_cuenta {
+  /*border-style: solid;
+  border-color: purple;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#datos_cuenta {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+
+#imagen_cuenta {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.boton {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
