@@ -1,0 +1,161 @@
+#navegador {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+}
+
+#imagen_navegador {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+}
+
+#menu_navegador {
+  /*border-style: solid;
+  border-color: pink;*/
+  width: 130px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+#menu_navegador > a {
+  color: lightgray;
+  text-decoration: none;
+  margin-right: 15px;
+  display: block;
+}
+
+#panel_central {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 250px;
+  background-image: url("centro_destino.png");
+  background-position: center;
+  background-size: 100%;
+  color: white;
+  padding-left: 10px;
+}
+
+#panel_central > h1 {
+  margin-bottom: 1px;
+  margin-top: 90px;
+}
+
+#panel_central > h2 {
+  margin-top: 1px;
+}
+
+#info_viajes {
+  display: flex;
+  display: rows;
+  justify-content: space-between;
+  /*height: 250px;*/
+}
+
+#filtro_viajes {
+  /*border-style: solid;
+  border-color: pink;*/
+  width: 25%;
+  padding-left: 20px;
+  background-color: lightgray;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+#detalles_viajes {
+  width: 74%;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.det_viaje_individual {
+  display: flex;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.det_viaje_individual  h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.det_viaje_individual  h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.det_viaje_individual  h5 {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.det_viaj_img {
+  /*border-style: solid;
+  border-color: orange;*/
+  flex-grow: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 3px;
+}
+
+.det_viaj_detalle {
+  flex-grow: 1;
+  margin-left: 13px;
+}
+
+.det_viaj_boton {
+  /*width: 10%;*/
+  display:flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.boton_viaje {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#footer {
+  /*border-style: solid;
+  border-color: red;*/
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+#footer_info {
+  /*border-style: solid;
+  border-color: blue;*/
+  color:lightgray;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+#footer_socialnet {
+  /*border-style: solid;
+  border-color: blue;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
