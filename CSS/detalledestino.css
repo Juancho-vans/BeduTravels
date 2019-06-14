@@ -1,0 +1,40 @@
+body {
+  font-style: arial;
+}
+
+#contenedor_master {
+  border-style: solid;
+  border-color: blue;
+  display: flex;
+justify-content: space-between;
+}
+
+#izquierda_detalle_destino {
+  border-style: solid;
+  border-color: pink;
+  display: flex;
+  flex-grow: 3;
+}
+
+#derecha_detalle_destino {
+  border-style: solid;
+  border-color: orange;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#der_up_det_destino {
+  border-style: solid;
+  border-color: green;
+}
+
+#der_down_det_destino {
+  border-style: solid;
+  border-color: gold;
+}
+
+#der_centro {
+  border-style: solid;
+  border-color: aqua;
+}
