@@ -61,15 +61,15 @@ width: 350px;
 }
 
 #destinos {
-border-style:solid;
-border-color: orange;
+/*border-style:solid;
+border-color: orange;*/
 flex-direction: column;
 flex-wrap: wrap;
 }
 
 #encabezado_destinos {
-border-style:solid;
-border-color: brown;
+/*border-style:solid;
+border-color: brown;*/
 display: flex;
 flex-direction: column;
 }
@@ -80,8 +80,8 @@ margin: 5px;
 }
 
 #banderas {
-border-style:solid;
-border-color: red;
+/*border-style:solid;
+border-color: red;*/
 display: flex;
 flex-direction: row;
 justify-content: space-around;
@@ -89,8 +89,8 @@ flex-wrap: wrap;
 }
 
 .pais {
-border-style:solid;
-border-color: blue;
+/*border-style:solid;
+border-color: blue;*/
 display: flex;
 flex-direction: column;
 justify-content: center;
