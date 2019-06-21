@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Bedu Travels - INDEX</title>
-     <link rel = "stylesheet" type = "text/css" href = "CSS\index.css">
+     
      <link rel = "stylesheet" type = "text/css" href = "CSS\EstilosBeTr.css">
     </head>
 
     <body>
-      <div class="flx_just_space_between bg_col_black tx_col_white">
-          <div class="flx">
+      <div class="flx_just_space_between bg_col_black"> <!-- ++++++ header ++++++ -->
+          <div class="flx_img_header">
               <img class="img_izq" src="IMS\BeduBlack.png" alt="Logo Bedu" height="40px">
           </div>
           <div class="flx_align_cent">
@@ -17,61 +17,52 @@
               <a href="registro.html">Registro  </a>
           </div>
       </div>
-        
-      <div id = "panel_central">
-        <h1>Increibles tours alrededor del mundo</h1>
-        <h2>Encuentra grandes experiencias, viajes y actividades a precios fantasticos alrededor delmundo</h2>
-        <div id="panel_buscador">
-          <input id="texto_buscar" type= "text">
-          <button id="boton_buscar" type="submit"> Buscar</button>
-        </div>
 
- </div>
-
-      <div id = "destinos">
-          <div id="encabezado_destinos">
-            <h1>Destinos preferidos</h1>
-            <h2>Mira nuestros destinos favoritos alrededor del mundo</h2>
+      <div class="flx_img_col_cent "> <!-- ++++++ panel central ++++++ -->
+          <h1>Increibles tours alrededor del mundo</h1>
+          <h2>Encuentra grandes experiencias, viajes y actividades a precios fantasticos alrededor delmundo</h2>
+          <div class="flx_row_center">
+              <input class="input_buscador" type= "text";>
+              <button type="submit"> Buscar</button>  
           </div>
+      </div>
 
-          <div id = "banderas">
-            <div class="pais">
-              <a href="destinos.html">
-              <img src="IMS\argentina.jpg" alt="Arg" width=100%> </a>
+      <div class="flx_col_cent"> <!-- ++++++ destinos ++++++ -->
+        <h1>Destinos preferidos</h1>
+        <h2>Mira nuestros destinos favoritos alrededor del mundo</h2>
+
+        <div class="flx_row_cent">
+          <div class="flx_col_cent_pais" width:150px;>
+              <a href="destinos.html"><img src="IMS\argentina.jpg" alt="Arg" width=100%> </a>
               <p>Argentina</p>
-            </div>
-            <div class="pais">
-              <a href="destinos.html">
-              <img src="IMS\brasil.jpg" alt="Arg" width=100%> </a>
-              <p>Brasil</p>
-            </div>
-            <div class="pais">
-              <a href="destinos.html">
-              <img src="IMS\cuba.jpg" alt="Arg" width=100%> </a>
-              <p>Cuba</p>
-            </div>
-            <div class="pais">
-              <a href="destinos.html">
-              <img src="IMS\salvador.jpg" alt="Arg" width=100%> </a>
-              <p>Salvador</p>
-            </div>
           </div>
+          <div class="flx_col_cent_pais" width:150px;>
+              <a href="destinos.html"><img src="IMS\brasil.jpg" alt="Bra" width=100%> </a>
+              <p>Argentina</p>
+          </div>
+          <div class="flx_col_cent_pais" width:150px;>
+              <a href="destinos.html"><img src="IMS\cuba.jpg" alt="Cub" width=100%> </a>
+              <p>Argentina</p>
+          </div>
+          <div class="flx_col_cent_pais" width:150px;>
+              <a href="destinos.html"><img src="IMS\salvador.jpg" alt="Sal" width=100%> </a>
+              <p>Argentina</p>
+          </div>
+        </div>
 
       </div>
 
-      <div id = "footer">
-        <div id="footer_info">
-          <p style ="margin-top: 15px; margin-bottom:1px;">BeduTravels</p>
-          <p style="margin-top: 1px;"> me@bedutravels.com.mx </p>
+      <div class="flx_just_space_between bg_col_black tx_gris_claro"> <!-- ++++++ footer ++++++ -->
+        <div class="flx_footer">
+            BeduTravels <br>
+            me@bedutravels.com.mx
         </div>
-
-        <div id = "footer_socialnet">
-          <img src="IMS\face.png" alt="Facebok">
-          <img src="IMS\tweet.png" alt="tweeter">
-          <img src="IMS\you.png" alt="Youtube">
-          <img src="IMS\insta.png" alt="Instagram">
+        <div class="flx_footer">
+            <img src="IMS\face.png" alt="Facebok">
+            <img src="IMS\tweet.png" alt="tweeter">
+            <img src="IMS\you.png" alt="Youtube">
+            <img src="IMS\insta.png" alt="Instagram">
         </div>
-
       </div>
 
     </body>

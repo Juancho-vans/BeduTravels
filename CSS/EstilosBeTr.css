@@ -1,17 +1,87 @@
-/* Error: Undefined variable.
- *   ,
- * 10|         padding-left: $sm;
- *   |                       ^^^
- *   '
- *   sass\estilosbetr.scss 10:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 10\2502          padding-left: $sm;\d\a   \2502                        ^^^\a   \2575 \a   sass\\estilosbetr.scss 10:23  root stylesheet";
+body {
+  background-color: #FFFFFF;
 }
+
+h1, h2 {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.flx_img_header {
+  display: flex;
+}
+.flx_img_header .img_izq {
+  padding-left: 13px;
+}
+
+.flx_row_cent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.flx_col_cent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flx_col_cent_pais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  margin: 5px 30px 3px 30px;
+}
+
+.flx_footer {
+  display: flex;
+  margin: 20px 20px 5px 20px;
+  font-size: 17px;
+  color: lightgray;
+  padding: 7px;
+  justify-content: space-between;
+}
+.flx_footer img {
+  margin: 4px;
+}
+
+.flx_just_space_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flx_img_col_cent {
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("playa.jpg");
+  background-size: 100% auto;
+  height: 200px;
+}
+
+.flx_align_cent {
+  display: flex;
+  align-items: center;
+}
+.flx_align_cent a {
+  color: lightgray;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.bg_col_black {
+  background-color: #000000;
+}
+
+.input_buscador {
+  margin-right: 15px;
+  width: 350px;
+}
+
+/*# sourceMappingURL=EstilosBeTr.css.map */

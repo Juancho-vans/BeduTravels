@@ -1,19 +1,71 @@
 @import "Variables";
 
 body {
-    background-color: $azul_claro;
+    background-color: $blanco;
 }
 
-.flx {
+h1, h2 {
+    margin-bottom: $Xsmall;
+    margin-top: $Xsmall;
+}
+
+.flx_img_header {
     display: flex;
     .img_izq {
-        padding-left: $sm;
+        padding-left: $med;
     }
 }
+
+.flx_row_cent {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.flx_col_cent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flx_col_cent_pais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    margin: 5px 30px 3px 30px;
+}
+
+.flx_footer {
+    display: flex;
+    margin:20px 20px 5px 20px;
+    font-size: 17px;
+    color:$gris_claro;
+    padding: 7px;
+    justify-content: space-between;
+    img {
+        margin: $Xsmall;
+    }
+}
+
+
 
 .flx_just_space_between {
     display: flex;
     justify-content: space-between;    
+}
+
+.flx_img_col_cent {
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("playa.jpg");
+    background-size: 100% auto;
+    height: 200px;
 }
 
 .flx_align_cent {
@@ -31,6 +83,7 @@ body {
     background-color: $negro;
 }
 
-.tx_col_white {
-    color: $blanco;
+.input_buscador {
+    margin-right: 15px;
+    width: 350px;
 }
