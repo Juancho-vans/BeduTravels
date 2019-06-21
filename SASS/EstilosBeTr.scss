@@ -1,4 +1,36 @@
+@import "Variables";
+
 body {
-    background-color: red;
+    background-color: $azul_claro;
 }
 
+.flx {
+    display: flex;
+    .img_izq {
+        padding-left: $sm;
+    }
+}
+
+.flx_just_space_between {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.flx_align_cent {
+    display: flex;
+    align-items: center;
+    a {
+        color: $gris_claro;
+        text-decoration: none;
+        margin-right: 15px;
+        font-size: 18px;
+    } 
+}
+
+.bg_col_black {
+    background-color: $negro;
+}
+
+.tx_col_white {
+    color: $blanco;
+}

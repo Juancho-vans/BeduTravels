@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/EstilosBeTr.scss"],"names":[],"mappings":"AAAA;EACI","file":"EstilosBeTr.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/EstilosBeTr.scss","../sass/_Variables.scss"],"names":[],"mappings":"AAEA;EACI;;;AAGJ;EACI;;AACA;EACI,cCCH;;;ADGL;EACI;EACA;;;AAGJ;EACI;EACA;;AACA;EACI,OCfK;EDgBL;EACA;EACA;;;AAIR;EACI,kBC9BG;;;ADiCP;EACI,OCjCK","file":"EstilosBeTr.css"}
