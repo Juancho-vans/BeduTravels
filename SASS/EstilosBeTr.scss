@@ -4,7 +4,7 @@ body {
     background-color: $blanco;
 }
 
-h1, h2 {
+h1, h2 {    
     margin-bottom: $Xsmall;
     margin-top: $Xsmall;
 }
@@ -18,9 +18,16 @@ h1, h2 {
 
 .flx_row_cent {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     text-align: center;
     justify-content: center;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+
+.paises {
+    width: 300px;
+    height: 120px;
 }
 
 .flx_col_cent {
@@ -35,8 +42,14 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 150px;
-    margin: 5px 30px 3px 30px;
+    width: 300px;
+    margin: 5px 10px 3px 10px;
+    /* border: 1px solid blue; */
+    font-weight: bold;
+    p {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
 }
 
 .flx_footer {
